@@ -1,15 +1,14 @@
 {
   "type": "app",
   "version": "2.0.0",
-  "name": "Sample images",
-  "description": "Create a new project with randomly selected images",
+  "name": "Batch image tagging",
+  "description": "Effective way to assign tags to multiple images at hte same time",
   "categories": [
     "idea",
     "images",
     "data operations",
     "data transformation",
-    "annotation transformation",
-    "project management"
+    "annotation transformation"
   ],
   "icon": "https://user-images.githubusercontent.com/12828725/207275995-2d394281-5b79-4ca6-a2af-876a221bf01b.png",
   "icon_cover": true,
