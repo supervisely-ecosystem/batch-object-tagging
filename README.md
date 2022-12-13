@@ -15,4 +15,5 @@ Requirements
 - review processed images (grouped by tags) in additional tab
 
 Questions
+- create new project or modify existing one
 - use embeddings to optimize batch grouping
