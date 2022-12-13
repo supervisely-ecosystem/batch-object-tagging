@@ -1,19 +1,18 @@
-# Sample images
+# Batch image tagging
 
-App samples images from input project and creates new project with sampled images.
+App allows to interate over images in project or dataset in a batch manner and assign tag to some of them (or entire batch) 
 
 UI
-- card 1: input project
-- card 2: table of datasets (with select button) - or checkbox - select all 
-- card 3: sampling settings
-- card 4: destination project (new or existing -> start button -> progress bar -> project thumbnail)
-
-Sampling settings
-- Select: keep annotations, ignore annotations
-- Sempling strategy select: number of images per dataset, percent of images per dataset, 
-- dataset structure select: keep same datasets names, move results to dataset (define name)
+- UX sketches required
 
 Requirements
-- operation can be applied multiple times for different datasets with different settings
-- stop app manually
-- do not forget to copy images metadata
+- UI inspiration - [Images thumbnail preview](https://ecosystem.supervise.ly/apps/thumbnails-preview)
+- save image status in its metadata
+- global progress bar
+- stop app, start app and continue labeling from the the last batch
+- once the part of the batch is processed, the rest of the batch comes to begining and new images appear
+- button to get random batch / next batch / previous batch
+- review processed images (grouped by tags) in additional tab
+
+Questions
+- use embeddings to optimize batch grouping
